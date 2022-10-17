@@ -1,0 +1,17 @@
+.box {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+  color: black;
+  font-weight: var(--fw-500);
+  font-size: var(--fs-sm);
+  background: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.box:hover {
+  background: rgba(151, 151, 151, 0.1);
+}

@@ -1,0 +1,24 @@
+.footer {
+  background-color: black;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  border-top-left-radius: 42px;
+  border-top-right-radius: 42px;
+  min-height: 108px;
+}
+@media (min-width: 50rem) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.text {
+  color: white;
+  margin-top: 10px;
+}
+
+.image {
+  filter: brightness(0) invert(1);
+}
