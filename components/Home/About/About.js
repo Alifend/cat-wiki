@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import SelectBox from "../SelectBox/SelectBox";
-import CatWikiLogo from "/public/static/CatWikiLogo.svg";
 import styles from "./About.module.css";
 const About = ({ breeds }) => {
   const [filteredBreeds, setFilteredBreeds] = useState(null);
