@@ -1,5 +1,5 @@
 import axios from "axios";
-const URL_BACKEND = process.env.URL_BACKEND;
+const URL_BACKEND = process.env.NEXT_PUBLIC_URL_BACKEND;
 export const getBreeds = () => {
   return axios.get(URL_BACKEND + "/cats");
 };
