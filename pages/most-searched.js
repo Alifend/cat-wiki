@@ -17,7 +17,8 @@ export async function getStaticProps() {
   const mostSearchedBreeds = await getMostSearchedBreeds();
 
   return {
-    props: { mostSearchedBreeds, revalidate: 60 * 60 }, // will be passed to the page component as props
+    props: { mostSearchedBreeds },
+    revalidate: 60 * 60, // will be passed to the page component as props
   };
 }
 
